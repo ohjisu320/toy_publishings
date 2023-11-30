@@ -33,7 +33,6 @@ main {
 .grade-name {
     display: grid;
     gap: 4%;
-    margin 40px 0px;
     padding: auto;
     height: 400px;
     border-radius: 10px;
