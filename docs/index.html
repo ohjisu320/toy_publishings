@@ -1,88 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="./resources/css/common.css">
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <nav class="menu">
-        <div class="menu-left">        
-            <span>logo</span>
-            <span>Pricing example</span>
+        <div class="menu-left">
+            <span><img width="50px" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt=""></span>
+            <span class="page-name">Pricing example</span>
         </div>
         <div class="menu-right">
             <span>Features</span>
             <span>Enterprise</span>
-            <span>Surpport</span>
-            <span>Pricing</span>
+            <span> <a class="menu-contents" href="./support.html">Surpport</a></span>
+            <span> <a class="menu-contents" href="./index.html">Pricing</a></span>
         </div>
-
     </nav>
+
+    
     <main>
-        <div>Pricing</div>
-        <div>Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</div>
-        <div>
-            <div>
-                Free
-                <div>$0<span>/mo</span></div>
-                <div>10 users included</div>
-                <div>2 GB of storage</div>
-                <div>Email support</div>
-                <div>Help center access</div>
-                <div><button type="submit">Sign up for free</button></div>
+        <hr>
+        <div class="top">
+            <div class="pricing">Pricing</div>
+            <div class="pricing-contents" >Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s
+                built with default Bootstrap components and utilities with little customization.</div>
+        </div>
+        <div class="middle">
+            <div class="grade-name">
+                <div class="price-grade">Free</div>
+                <div><span class="price-month">$0</span>/mo</div>
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+                <div><button class="grade-free" type="submit">Sign up for free</button></div>
             </div>
-            <div>
-                Pro
-                <div>$15<span>/mo</span></div>
-                <div>20 users included</div>
-                <div>10 GB of storage</div>
-                <div>Priority email support</div>
-                <div>Help center access</div>
-                <div><button type="submit">Get started</button></div>
+            <div class="grade-name">
+                <div class="price-grade">Pro</div>
+                <div><span class="price-month">$15</span>/mo</div>
+                <li>20 users included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+                <div><button class="grade-summit" type="submit">Get started</button></div>
             </div>
-            <div>
-                Enterprise
-                <div>$29<span>/mo</span></div>
-                <div>30 users included</div>
-                <div>15 GB of storage</div>
-                <div>Phone and email support</div>
-                <div>Help center access</div>
-                <div><button type="submit">Contact us</button></div>
+            <div class="grade-name">
+                <div class="price-grade">Enterprise</div>
+                <div><span class="price-month">$29</span>/mo</div>
+                <li>30 users included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+                <div><button class="grade-summit" type="submit">Contact us</button></div>
             </div>
         </div>
-        <div>
-            <div>Compare plans</div>
-            <div>
-                <div></div>
-                <div>Free</div>
-                <div>Pro</div>
-                <div>Enterprise</div>
-                <div>Public</div>
-                <div>V</div>
-                <div>V</div>
-                <div>V</div>
-            </div>
+        <div class="middle-2">
+            <div class="middle-2-name">Compare plans</div>
+           
+            <table>
+                
+                <tr>
+                    <td></td>
+                    <td>Free</td>
+                    <td>Pro</td>
+                    <td>Enterprise</td>
+                </tr>
+                <tr>
+                    <th>Public</th>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                </tr>
+                <tr>
+                    <th>Private</th>
+                    <td></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                </tr>
+                <tr>
+                    <th>Permissions</th>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                </tr>
+                <tr>
+                    <th >Sharing</th>
+                    <td></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                </tr>
+                <tr>
+                    <th >Unlimited members</th>
+                    <td></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                </tr>
+                <tr>
+                    <th>Extra security</th>
+                    <td></td>
+                    <td></td>
+                    <td><i class="fa fa-check" style="font-size:24px"></i></td>
+                </tr>
+
+            </table>
+            
+
         </div>
     </main>
+
     <footer>
-        <div>
+
+        <ul>
             <span><img width="20px" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="">
-                <span>C_icon 2017-2023</span>
-        </div>
-        <ul class="footer-ul">Features
+                <span><i class="fa fa-copyright" style="font-size:20px"></i> 2017-2023</span>
+            </ul>
+        <ul >
+            <li class="footer-ul">Features</li>
             <li>Cool stuff</li>
             <li>Random feature</li>
             <li>Team feature</li>
         </ul>
-        <ul class="footer-ul">Resources
+        <ul >
+            <li class="footer-ul">Resources</li>
             <li>Resource</li>
             <li>Resource name</li>
             <li>Another resource</li>
             <li>Final resource</li>
         </ul>
-        <ul class="footer-ul">About
+        <ul >
+            <li class="footer-ul">About</li>
             <li>Team</li>
             <li>Locations</li>
             <li>Privacy</li>
@@ -90,4 +143,5 @@
         </ul>
     </footer>
 </body>
+
 </html>
