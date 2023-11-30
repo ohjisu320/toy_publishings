@@ -37,7 +37,7 @@ a {
 main {
     display: grid;
     grid-template-columns: auto;
-    width: 80%%;
+    width: 80%;
     margin: 0px 20%;
     justify-content: center;
    
