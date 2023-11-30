@@ -1,0 +1,40 @@
+body {
+    background-color:#555a64; ;
+    margin: 50px;
+    display: grid;
+}
+
+/* menu */
+.menu {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns:  auto auto;
+    justify-content: space-between;
+
+}
+.menu-left {
+    display: grid;
+    grid-template-columns:  100px 200px;
+}
+.menu-right {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+}
+main {
+    display: grid;
+    grid-template-columns: auto;
+    width: 1000px;
+    justify-content: center;
+}
+
+/* footer */
+
+footer {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+
