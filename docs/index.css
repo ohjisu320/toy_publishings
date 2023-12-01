@@ -4,8 +4,7 @@
 }
 
 body {
-    margin: 10px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
 }
 /* header */
 .main-logo {
@@ -24,7 +23,7 @@ a {
 
 
 #navbar {
-    padding-bottom: 50px;
+
     margin-bottom: 50px;
 }
 #main-title {
@@ -33,9 +32,13 @@ a {
 
 /* main-card */
 .card {
+    justify-content: start;
+    margin: 40px 0px;
+    text-align: center;  
+}
+.card-body>*>* {
     text-align: center; 
-    margin: 40px 0px;  
-} 
+}
 
 button {
     width: 80%;
@@ -48,19 +51,30 @@ li {
     margin: 40px 0px;
 }
 /* main-table */
-table {
+table * {
     background-color: rgb(245, 245, 245);;
+}
+tbody > tr > th {
+    text-align: left;
+    
+}
+td {
+    text-align: center;
+
 }
 /* footer */
 h5 {
     font-weight: bold;
+    text-indent: 12px ;
 }
 #footer-ul
 {
-    align-items: start;
+    justify-content: space-between;
     vertical-align:start;
+
 }
-#footer-ul > ul > li {
-    
+li {
+    text-align: start;
 }
+
 
