@@ -66,10 +66,12 @@ button {
 .grade-free {
     background-color: #ffffff;
     color:rgb(4, 90, 250); 
+    border-radius: 10px;
 }
 .grade-summit {
     background-color: rgb(4, 90, 250);
     color: #ffffff;
+    border-radius: 10px;
 }
 .grade-summit:hover {
     border-color:rgb(0, 71, 204) ;
